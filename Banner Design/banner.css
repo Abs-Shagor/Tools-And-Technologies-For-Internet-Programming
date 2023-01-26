@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+} 
+.left{
+    height: 30%;
+    display: grid;
+    
+}
+button{
+    height: 35px;
+    width: 120px;
+    background: #37D1EE;
+    border-color: darkgoldenrod;
+    border-radius: 20px;
+}
+.txt{
+    font-size: 50px;
+}
+.right{
+    width: 60%;
+}
+img{
+    width: 100%;
+}

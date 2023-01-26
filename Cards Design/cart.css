@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-div{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFEFEF;
+    gap: 60px;
+}
+.cart{
+    display: grid;
+    grid-template-rows: 3fr 3fr 1fr;
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+}
+.img-div{
+    width: 250px;
+    height: 200px;
+    place-self: center;
+}
+.content{
+    place-self: center;
+}
+.button1{
+    width: 300px;
+    height: 100%;
+    place-self: center;
+    background-color: #FFA300;
+}
+.button2{
+    width: 300px;
+    height: 100%;
+    place-self: center;
+    background-color: #27C9A4;
+}
+.button3{
+    width: 300px;
+    height: 100%;
+    place-self: center;
+    background-color: #FD5530;
+}
+h1,p{
+    margin-bottom: 5px;
+}
+.txt{
+    color: white;
+    margin-top: 15px;
+}
+.txt:hover{
+    color: white;
+    margin-top: 12px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.img1{
+    width: 180px;
+    height: auto;
+    margin-top: 20px;
+}
+.img2{
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+}
+.img3{
+    width: 120px;
+    height: auto;
+    margin-top: 20px;
+}

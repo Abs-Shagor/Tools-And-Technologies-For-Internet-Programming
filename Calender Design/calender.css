@@ -1,0 +1,54 @@
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-color: #E9EDF3;
+}
+.con{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 40px;
+}
+.heading{
+    border: 1px solid black;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+}
+th{
+    font-size: 25px;
+    padding: 7px;
+    
+}
+.calender{
+    width: 400px;
+    height: 380px;
+    display: grid;
+    grid-template-rows: repeat(7,1fr);
+    grid-template-columns: repeat(7,1fr);
+}
+.date{
+    margin: 5px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #001A51;
+    border-radius: 30px;
+}
+.exdate{
+    background-color: #B1B1B1;
+}
+.today{
+    background-color: #FF9E02;
+}
+

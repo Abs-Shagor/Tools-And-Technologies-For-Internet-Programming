@@ -1,0 +1,86 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fa-solid{ /*  button icon size and color  */
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.button1{
+    width: 130px;
+    height: 40px;
+    padding: 10px;
+    color: aliceblue;
+    background-image: linear-gradient(270deg,#ED4264,#FFEDBC);
+    border-radius: 15px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.button2{
+    margin-left: 10px;
+    width: 130px;
+    height: 40px;
+    padding: 10px;
+    color: aliceblue;
+    background-image: linear-gradient(270deg,#3D7EAA,#FFE47A);
+    border-radius: 15px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.button3{
+    margin-top: 10px;
+    width: 130px;
+    height: 40px;
+    padding: 10px;
+    color: aliceblue;
+    background-image: linear-gradient(270deg,#2BC0E4,#EAECC6);
+    border-radius: 15px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.button4{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 130px;
+    height: 40px;
+    padding: 10px;
+    color: aliceblue;
+    background-image: linear-gradient(270deg,#FF8008,#FFC837);
+    border-radius: 15px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.button1:hover{
+    background-image: linear-gradient(270deg,#7c0bc7,#fb5ab5);
+    color: white;
+    cursor: pointer;
+}
+.button2:hover{
+    background-image: linear-gradient(270deg,#7c0bc7,#fb5ab5);
+    color: white;
+    cursor: pointer;
+}
+.button3:hover{
+    background-image: linear-gradient(270deg,#7c0bc7,#fb5ab5);
+    color: white;
+    cursor: pointer;
+}
+.button4:hover{
+    background-image: linear-gradient(270deg,#7c0bc7,#fb5ab5);
+    color: white;
+    cursor: pointer;
+}
